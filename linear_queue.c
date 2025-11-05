@@ -36,7 +36,7 @@ void pop() {
     front++;
 
     if (front > rear) {
-        // Reset queue when it becomes empty
+        
         front = -1;
         rear = -1;
     }
@@ -78,7 +78,7 @@ int main() {
                 display();
                 break;
             case 4:
-                printf("Exiting program.\n");
+                printf("Exit program \n");
                 exit(0);
             default:
                 printf("Enter a valid choice\n");
@@ -87,3 +87,4 @@ int main() {
 
     return 0;
 }
+
